@@ -66,21 +66,21 @@ function selectedtrans(valuet){
     {
         islices.classList.remove("rotateslices");
         transformv="scaling";
-        itextforinput.innerHTML = "Please input Scaling paramters(Sx,Sy,Sz): ";
+        itextforinput.innerHTML = "Please input Scaling paramters(eg. 5,5,5): ";
         iinputs.classList.remove("noneinputs");
     }
     else if(valuet==="rotation")
     {
         islices.classList.remove("rotateslices");
         transformv="rotation";
-        itextforinput.innerHTML = "Please input Rotation paramter(axis,degree): ";
+        itextforinput.innerHTML = "Please input Rotation paramter(eg. Z,45): ";
         iinputs.classList.remove("noneinputs");
     }
     else if(valuet==="translation")
     {
         islices.classList.remove("rotateslices");
         transformv="translation";
-        itextforinput.innerHTML = "Please input Translation paramters(x,y,z): ";
+        itextforinput.innerHTML = "Please input Translation paramters(eg. 10,5,5): ";
         iinputs.classList.remove("noneinputs");
     }
     
