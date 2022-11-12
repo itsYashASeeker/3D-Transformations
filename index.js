@@ -36,8 +36,10 @@ function transformf(){
         }
         else
         {
-            console.log("translate3d("+iinpara[0]+"rem,"+iinpara[1]+"rem,"+iinpara[2]+"rem)");
-            ibox.style.transform = ibox.style.transform+"translate3d("+iinpara[0]+"rem,"+iinpara[1]+"rem,"+iinpara[2]+"rem)";
+            var t1 = "translate("+iinpara[0]+"rem,"+iinpara[1]+"rem)";
+            console.log(t1);
+            var n = ibox.style.transform;
+            ibox.style.transform = n+t1;
         } 
     }
     else if(transformv==="rotation"){
