@@ -17,7 +17,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, rgb(250, 114, 114), rgb(248, 255, 59), rgb(91, 255, 20), rgb(26, 157, 244));
+    background: linear-gradient(0deg, rgba(9, 77, 86, 0.201), rgba(9, 77, 86, 0.401), rgba(9, 77, 86, 0.601), rgba(9, 77, 86, 0.801), rgba(9, 77, 86, 1));
 }
 
 .parameters{
@@ -157,6 +157,7 @@ body{
     /* transform: perspective(33rem) var(--var2);
     transform: translate3d(0rem,0rem,0); */
     /* transform: translateX(30rem) perspective(33rem) rotateZ(45deg) rotateY(50deg) rotateX(30deg); */
+    /* transform: translate(10rem,10rem); */
     width: var(--vwidth);
     height: var(--vheight);
     transform-style: preserve-3d;
